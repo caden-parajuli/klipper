@@ -41,6 +41,7 @@ of a Raspberry Pi.
 * Adds support for multiple buttons with same action in display
 * Removes the need for specifying dummy pins for software spi devices
 * Adds example g code macros to emulate some original Makerbot behaviors
+* Adds PR to add virtual_sdcard file sort by date https://github.com/Klipper3d/klipper/pull/6470
 
 **Example Configs:**
 
