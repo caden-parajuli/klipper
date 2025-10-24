@@ -49,6 +49,8 @@ of a Raspberry Pi.
 
 `/config/printer-makerbot-replicator2x-2012.cfg` can be used as a starting point for the Replicator 2X.
 
+https://github.com/dockterj/KlipperBot-Rep2 has a current backup of my Rep2 modified with a heated bed.
+
 # Installation
 
 <details><summary>KIAUH</summary>
