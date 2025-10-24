@@ -16,6 +16,13 @@ want to get Klipper running on it let me know and submit
 a sample config file and flashing instructions and I will
 include them in this repo.
 
+If you can loan any of these printers for a period of time
+I will work on finishing Klipper support for them.  I would
+like this repo to be a resource for running Klipper on older
+8 bit printers.  I believe the architecture of Klipper allows
+these printers to remain usable with the simple addition
+of a Raspberry Pi.
+
 **Printers that may use ADS1118 ADCs and may work with this repo include:**
 - FlashForge Dreamer NX
 - FlashForge Dreamer
