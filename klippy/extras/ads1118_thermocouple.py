@@ -37,7 +37,7 @@ class ADS1118_Thermocouple(object):
         self._parent = pins['chip']
         self._mcu = self._parent.get_mcu()
         self._oid = self._mcu.create_oid()
-        self._mcu.register_response(self._handle_spi_response,
+        self._mcu._serial.register_response(self._handle_spi_response,
                               "ads1118_result", self._oid)
         self._mcu.register_config_callback(self._build_config)
     def setup_minmax(self, min_temp, max_temp):
